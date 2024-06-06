@@ -1,0 +1,113 @@
+* {
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0;
+
+}
+
+body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: serif;
+          height: 100vh;
+          background-color: gray;
+}
+
+.button {
+          position: relative;
+          padding: 15px 20px;
+          font-size: 1.5rem;
+          background-color: white;
+          display: inline-block;
+          text-decoration: none;
+          color: black;
+          border-radius: 1rem;
+          cursor: pointer;
+          transition: 0.5s;
+}
+
+.button:hover {
+          letter-spacing: 0.1rem;
+}
+
+#newsLetter {
+          position: fixed;
+          top: -100%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          background-color: white;
+          z-index: 3;
+          width: 500px;
+          padding: 70px 50px 50px;
+          transition: 0.5s;
+          border-radius: 1rem;
+          visibility: hidden;
+}
+
+#newsLetter.active {
+          visibility: visible;
+          top: 50%;
+}
+
+#newsLetter h2 {
+          text-align: center;
+          color: black;
+          font-size: 1.8em;
+          margin: 20px 10px;
+}
+
+#newsLetter p {
+          text-align: center;
+          color: black;
+}
+
+#newsLetter .box {
+          position: relative;
+          width: 100%;
+          margin: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+input,
+button {
+          width: 100%;
+          border: 1px solid black;
+          border-radius: 1rem;
+          border: 1px solid gray;
+          padding: 15px;
+          outline: none;
+          font-size: 1rem;
+          font-family: serif;
+}
+
+button {
+          border: none;
+          font-weight: bold;
+          width: 150px;
+          letter-spacing: 0.1rem;
+          background-color: aqua;
+          color: black;
+          cursor: pointer;
+
+}
+
+.close {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+
+
+}
+
+.close:hover {
+          background-color: red;
+          height: 30px;
+          width: 30px;
+          border-radius: 5px;
+          transition: 1s;
+
+
+}
