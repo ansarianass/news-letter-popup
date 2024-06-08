@@ -1,0 +1,27 @@
+@media(max-width:565px) {
+          #newsLetter {
+                    width: 400px;
+                    padding: 70px 50px 50px;
+          }
+}
+
+@media(max-width:435px) {
+          #newsLetter {
+                    width: 350px;
+                    padding: 70px 50px 50px;
+          }
+}
+
+
+@media(max-width:425px) {
+          #newsLetter {
+                    max-width: 300px;
+                    padding: 70px 50px 50px;
+          }
+                    .button {
+                              width:200px;
+                              
+                              padding: 15px 6px;
+                              font-size: 1.2rem;
+                    }
+}
